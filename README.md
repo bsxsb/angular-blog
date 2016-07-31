@@ -1,7 +1,7 @@
 blog
 ---
 
-This blog is written by angularjs 1.3.
+This blog is written by angularjs 1.3
 
 
 关于作者（About Author）
