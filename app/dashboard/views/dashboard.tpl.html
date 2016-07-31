@@ -1,0 +1,23 @@
+<h4 class="page-tile">最新文章</h4>
+<div id="list">
+    <article class="article" ng-repeat="article in articles">
+        <h1><a ui-sref="app.archives({id:$index})">{{article.title}}</a></h1>
+        <p>
+            <a ui-sref="app.archives({id: $index})">
+                <img ng-src="{{article.img}}">
+            </a>{{ article.info}}
+            <time><br>{{article.date}}</time>
+        </p>
+    </article>
+    <ul class="uk-pagination">
+        <li class="uk-active">
+            <span>1</span>
+        </li>
+        <li>
+            <a>2</a>
+        </li>
+        <li>
+            <a>»</a>
+        </li>
+    </ul>
+</div>

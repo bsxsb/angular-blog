@@ -1,0 +1,10 @@
+.page-tile{
+    padding: 15px 30px;
+    border-bottom: 1px solid #EEE;
+    box-shadow: 0 2px 5px -1px rgba(0,0,0,.05);
+    background-image: linear-gradient(rgba(200,200,200,0),rgba(200,200,200,.12));
+    color: rgba(0,0,0,.4);
+    margin: 0 0 20px;
+    font-size: 16px;
+    line-height: 25px;
+}

@@ -1,0 +1,40 @@
+<script type="text/ng-template" id="myModalContent.html">
+    <div class="modal-header">
+        <h3 class="modal-title">感谢打赏!</h3>
+    </div>
+    <div class="modal-body">
+        <div style="text-align: center">
+            <img src="dist/img/erweima.png">
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-warning" type="button" ng-click="cancel()">关闭</button>
+    </div>
+</script>
+<article id="article" class="uk-article" style="display: block;">
+    <h1 class="uk-article-title">{{article.title}}</h1>
+
+    <ul class="singlenav uk-breadcrumb">
+        <li><i class="uk-icon-calendar"></i> {{article.date}}</li>
+        <!--<li><i class="uk-icon-eye"></i> 1,074</li>-->
+        <li><i class="uk-icon-commenting-o"></i> {{commentCount}}</li>
+    </ul>
+
+    <p><img class="alignnone wp-image-17 size-full" ng-src="{{article.img}}" alt="111" width="750" height="357"></p>
+    <p ng-bind-html='article.content | unsafe'></p>
+    <div>
+        <div class="reward">
+            <a ng-click="launch()" class="rewards uk-button">赏</a>
+        </div>
+    </div>
+    <div>
+        <!-- 多说评论框 start -->
+        <div id="ds-thread"></div>
+        <!--<div class="ds-thread"></div>-->
+        <!-- 多说评论框 end -->
+    </div>
+    <!--<div class="tags uk-clearfix">-->
+        <!--<div class="tags uk-float-left"></div>-->
+        <!--<div class="uk-float-right"></div>-->
+    <!--</div>-->
+</article>

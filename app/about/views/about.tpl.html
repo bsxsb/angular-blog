@@ -1,0 +1,35 @@
+<div style="margin-top: 120px; margin-left: 150px">
+    <!-- Standard button -->
+    <h1>我是study</h1> <br>
+    <p>名字 : <input type="text" ng-model="name"></p>
+    <h1>Hello {{name}}</h1><br>
+    <p>总价： {{ quantity * cost }}</p>
+    <p>数量 : <input type="text" ng-model="quantity"></p>
+    <p>单价 : <input type="text" ng-model="cost"></p>
+
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="{{threadKey}}" data-title="123" data-url="{{currentUrl}}"></div>
+    <!-- 多说评论框 end -->
+
+    <button type="button" class="btn btn-default" ng-click="buttonClick('（默认样式）Default')">（默认样式）Default</button>
+
+    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+    <button type="button" class="btn btn-primary" ng-click="buttonClick('（首选项）Primary')">（首选项）Primary</button>
+
+    <!-- Indicates a successful or positive action -->
+    <button type="button" class="btn btn-success" ng-click="buttonClick('（成功）Success')">（成功）Success</button>
+
+    <!-- Contextual button for informational alert messages -->
+    <button type="button" class="btn btn-info" ng-click="buttonClick('（一般信息）Info')">（一般信息）Info</button>
+
+    <!-- Indicates caution should be taken with this action -->
+    <button type="button" class="btn btn-warning">（警告）Warning</button>
+
+    <!-- Indicates a dangerous or potentially negative action -->
+    <button type="button" class="btn btn-danger">（危险）Danger</button>
+
+    <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+    <button type="button" class="btn btn-link" ng-click="pageGo()">页面跳转</button>
+
+
+</div>

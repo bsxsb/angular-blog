@@ -1,0 +1,24 @@
+{
+  "prebuild" :[
+     "jquery",
+      "angular",
+      "angular-ui-router",
+      "angular-bootstrap",
+      "moment",
+      "angular-sqlite"
+  ],
+  "paths" : {
+      "bootstrap": "bower_components/bootstrap/dist/js/bootstrap.min.js",
+      "angular": "bower_components/angular/angular.min.js",
+      "angular-animate": "bower_components/angular-animate/angular-animate.min.js",
+      "angular-ui-router": "bower_components/angular-ui-router/release/angular-ui-router.min.js",
+      "angular-bootstrap" : "bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js",
+      "jquery": "bower_components/jquery/dist/jquery.min.js",
+      "moment" : "bower_components/moment/min/moment-with-locales.min.js",
+      "duoshuo" : "bower_components/duoshuo/comment.js",
+      "angular-sqlite" : "bower_components/angular-sqlite/angular-sqlite.js"
+  },
+  "shim" : {
+
+  }
+}
