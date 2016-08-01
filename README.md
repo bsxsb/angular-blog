@@ -38,7 +38,7 @@ About Author
 blog ：[http://blog.bsxsb.com](http://blog.bsxsb.com)
 
 
-QQ: 526173024
+QQ: 112296629@qq.com
 
 License
 =======
